@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98ECB1D12CB03F4B0058483C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98ECB1CB2CB03F4B0058483C /* Preview Assets.xcassets */; };
+		98ECB1D22CB03F4B0058483C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98ECB1CD2CB03F4B0058483C /* Assets.xcassets */; };
+		98ECB1D42CB03F4B0058483C /* GemetricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ECB1CF2CB03F4B0058483C /* GemetricFiguresApp.swift */; };
+		98ECB1D72CB0415F0058483C /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ECB1D62CB0415F0058483C /* CircleView.swift */; };
+		98ECB1DA2CB043610058483C /* circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ECB1D92CB043610058483C /* circle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		98ECB1B12CAECB030058483C /* GemetricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemetricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98ECB1CB2CB03F4B0058483C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98ECB1CD2CB03F4B0058483C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98ECB1CF2CB03F4B0058483C /* GemetricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemetricFiguresApp.swift; sourceTree = "<group>"; };
+		98ECB1D62CB0415F0058483C /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		98ECB1D92CB043610058483C /* circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		98ECB1B32CAECB030058483C /* GemetricFigures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GemetricFigures;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		98ECB1AE2CAECB030058483C /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		98ECB1A82CAECB030058483C = {
 			isa = PBXGroup;
 			children = (
-				98ECB1B32CAECB030058483C /* GemetricFigures */,
+				98ECB1D02CB03F4B0058483C /* GemetricFigures */,
 				98ECB1B22CAECB030058483C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				98ECB1B12CAECB030058483C /* GemetricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		98ECB1CC2CB03F4B0058483C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98ECB1CB2CB03F4B0058483C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98ECB1D02CB03F4B0058483C /* GemetricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				98ECB1CF2CB03F4B0058483C /* GemetricFiguresApp.swift */,
+				98ECB1D82CB042110058483C /* Model */,
+				98ECB1D52CB040BA0058483C /* View */,
+				98ECB1CC2CB03F4B0058483C /* Preview Content */,
+				98ECB1CD2CB03F4B0058483C /* Assets.xcassets */,
+			);
+			path = GemetricFigures;
+			sourceTree = "<group>";
+		};
+		98ECB1D52CB040BA0058483C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98ECB1D62CB0415F0058483C /* CircleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98ECB1D82CB042110058483C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98ECB1D92CB043610058483C /* circle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				98ECB1B32CAECB030058483C /* GemetricFigures */,
 			);
 			name = GemetricFigures;
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98ECB1D12CB03F4B0058483C /* Preview Assets.xcassets in Resources */,
+				98ECB1D22CB03F4B0058483C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98ECB1DA2CB043610058483C /* circle.swift in Sources */,
+				98ECB1D72CB0415F0058483C /* CircleView.swift in Sources */,
+				98ECB1D42CB03F4B0058483C /* GemetricFiguresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

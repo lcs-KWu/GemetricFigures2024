@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct GemetricFiguresApp: App {
+    // MARK: computed properties.
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CircleView()
         }
     }
 }
