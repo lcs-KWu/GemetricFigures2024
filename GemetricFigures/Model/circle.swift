@@ -19,6 +19,7 @@ struct Circle: Describable {
     var radius: Double
     
     // MARK: Computed properties
+    //progress
     var diameter: Double {
         return radius * 2
     }

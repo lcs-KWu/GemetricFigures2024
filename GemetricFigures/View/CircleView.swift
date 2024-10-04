@@ -16,7 +16,7 @@ struct CircleView: View {
         VStack{
             
             //MARK: add a image
-            
+            // input
             //label(intro what slide is for)
             Text("Radius")
             //slider control allow user input
@@ -25,8 +25,15 @@ struct CircleView: View {
                 in: 1...100,
                 step: 1.0
             )
+            //output
             //lable(show current slider value)
             Text("Radius is \(CurrentCircle.radius.formatted())")
+            //label diameter
+            Text("diameter is \(CurrentCircle.diameter.formatted())")
+            //label area
+            Text("area is \(CurrentCircle.area.formatted())")
+            //label curcumference
+            Text("curcumference is \(CurrentCircle.circumference.formatted())")
         }
     
     }
